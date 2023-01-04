@@ -109,3 +109,4 @@ class DataSet(torch.utils.data.Dataset):
         img = self.transform(img)
         mask = self.transform(mask)
         return img, mask
+    
