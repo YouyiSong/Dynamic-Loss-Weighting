@@ -344,3 +344,4 @@ class Encoder(nn.Module):
     def forward(self, x):
         x = self.net(x).squeeze(dim=-1)
         return x
+    
