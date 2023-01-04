@@ -47,3 +47,4 @@ class CE(nn.Module):
         outputB = torch.log(1 - output + 1e-10)
         loss = -target * outputF - (1 - target) * outputB
         return loss.mean()
+    
