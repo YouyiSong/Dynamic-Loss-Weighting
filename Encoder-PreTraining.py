@@ -18,7 +18,7 @@ learning_rate = 3e-4
 reg_weight = 0.0001
 path = 'D:\\LossIncentive\\Data\\'
 modelPath = 'D:\\LossIncentive\\Model\\'
-fracTrain = 50
+fracTrain = 80
 
 device = DeviceInitialization('cuda:0')
 TrainIdx, TestIdx = DataReading(path=path, set=set, fracTrain=fracTrain)
